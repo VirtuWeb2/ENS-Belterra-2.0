@@ -19,7 +19,7 @@ const Header = () => {
             >
               <li>{pathname !== "/" && <Link to="/">Home</Link>}</li>
               <li>
-                {pathname !== "/tv-en-belterra" && <Link to="/tv-en-belterra">Tv é notícia Acara</Link>}
+                {pathname !== "/tv-en-belterra" && <Link to="/tv-en-belterra">Tv é Notícia Belterra</Link>}
               </li>
               {/* <li>
                 {pathname !== "/cultura" && <Link to="/cultura">Cultura</Link>}
